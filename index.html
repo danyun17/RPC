@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir</title>
+    <link rel="stylesheet" href="style.css".css>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="1726122198623.png" alt="Rumah putih coff" width="90px">
+            <span>Rumah putih coffe</span> 
+
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            
+            <li><a href="History.html">History</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="obah">
+  <div class="atas" > 
+    <div class="bawah">stock menu</div>
+    <label for="search"></label>
+    
+    <div class="men"><input type="text" id="search" placeholder="cari menu"></div>
+    <label for="kategor1"></label>
+    <select name="kategor1" id="kategor1"placeholder="KATEGORI">
+        
+        <option value="Makanan">Makanan</option>
+        <option value="Minuman">Minuman</option>
+    </select>
+
+  <form>
+   <div class="menu-container">
+    <div class="menu-item">
+        <img src="rv.jpg" alt="Frappe Red Velvet">
+        <p>(Minuman)</p>
+        <p>Frappe Red Velvet</p>
+        <p>Rp.16.000,-</p>
+        <p>Stok: (45x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="cap.jpg" alt="Cappucino">
+        <p>(Minuman)</p>
+        <p>Cappucino</p>
+        <p>Rp.14.000,-</p>
+        <p>stok: (30x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="america.jpg" alt="Americano">
+        <p>(Minuman)</p>
+        <p>Americano</p>
+        <p>Rp.12.000,-</p>
+        <p>stok: (20x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="matchajpg.webp" alt="Frappe Mactha Latte">
+        <p>(Minuman)</p>
+        <p>Frappe Mactha Latte</p>
+        <p>Rp.16.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="crreamy.jpg" alt="Creamy">
+        <p>Creamy</p>
+        <p>Rp.12.000,-</p>
+        <p>stok: (40x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="kentang.jpg" alt="French Fries">
+        <p>French Fries</p>
+        <p>Rp.10.000,-</p>
+        <p>stok: (45x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="pancong.jpg" alt="Kue Pancong">
+        <p>Kue Pancong</p>
+        <p id="ani">Rp.8.000,-</p>
+        <p>stok: (40x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="mie goreng.jpg" alt="Miegoreng">
+        <p>Miegoreng</p>
+        <p>Rp.19.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="tr.jpg" alt="Torikara">
+        <p>Torikara Ramen</p>
+        <p>Rp.26.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="chaest toast.jpg" alt="Cheese Toast">
+        <p>Chesse Toast</p>
+        <p>Rp.28.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="es.jpg" alt=" Vanilla Icecream">
+        <p>Vanilla Icecream</p>
+        <p>Rp.14.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+    <div class="menu-item">
+        <img src="boba.jpg" alt="Brown Sugar Milk Tea">
+        <p>Brown Sugar Milk Tea</p>
+        <p>Rp.16.000,-</p>
+        <p>stok: (50x)</p>
+    </div>
+   </div>
+  </form>
+    
+      
+   </div>
+
+  
+
+    </div></div>
+   </form>
+
+   <div class="atis">
+    <div class="keranjang">
+    <div class="isi">keranjang</div>
+    <div class="si">
+        <label for="custome"><p>COSTUMER</p>
+        <input type="text" id="custome">
+        </label>
+        <br>
+        <label for="no-meja"><p>NO-MEJA</p>
+        <input type="text" id="no-meja">
+        </label>
+        <br>
+        <div class="tgl">
+        <label for="tgl-pesan"><p>TANGGAL-PESAN</p></label>
+        <input type="datetime-local" id="tgl-pesan">
+        </div>
+        <br>
+        <div class="jumlah">
+            <label for="jumlah"><p>JUMLAH</p></label>
+            <span>Rp</span>
+            <input type="number" id="jumlah">
+        </div>
+        <div class="Total">
+            <label for="totalb"><p>Total Bayar</p></label>
+            <span>Rp</span>
+            <input type="number" id="totalb">
+        </div>
+        <div class="balik">
+            <label for="kembali"><p>Kembalian</p></label>
+            <span>Rp</span>
+            <input type="number" id="kembali">
+        </div>
+        <div class="tabel">
+        <form action="bel">List menu 
+            <br>
+            <div class="isitb">
+                
+                <table>
+            <tr>
+                <th>NO.</th>
+                <th>Nama</th>
+                <th>Qty</th>
+                <th>Harga</th>
+                <th>Total</th>
+            </tr>
+
+            <tr>
+                <td>F001</td>
+                <td>Mie goreng</td>
+                <td>1</td>
+                <td>20.000</td>
+                <td>20.000</td>
+
+            </tr>
+</table>
+        </form>
+        <div class="simpan"><button >SIMPAN TRANSAKSI</button></div>
+</div>
+   </div>
+
+   </div>
+
+   </div>
+
+    
+</body>
+</html>
